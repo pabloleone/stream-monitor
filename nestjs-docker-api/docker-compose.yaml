@@ -13,6 +13,7 @@ services:
     build: .
     volumes:
       - .:/app
+      - /app/node_modules
     ports:
       - ${APP_PORT}:${APP_PORT}
     command: yarn start:dev

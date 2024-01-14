@@ -22,7 +22,7 @@ Implement the service(s) for monitoring the tweets in real-time (1 hour)
 
 The service is implemented as a deamon.
 
-Execute the nest project using `docker compose up` and in another terminal execute the streamer daemon using `node streamSimulator.js`
+Execute the nest project using `docker compose up --build` (read the README.md within NestJs project) and in another terminal execute the streamer daemon using `node streamSimulator.js` (install deps first)
 
 ---
 
